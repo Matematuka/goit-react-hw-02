@@ -1,6 +1,6 @@
 .feedbackBox {
-background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 97, 1) 35%, rgba(0, 212, 255, 1) 100%);
+background: rgb(70, 201, 178);
+    background: radial-gradient(circle, rgba(70, 201, 178, 1) 0%, rgba(59, 171, 158, 1) 22%, rgba(23, 130, 152, 1) 53%, rgba(0, 212, 255, 1) 71%, rgba(69, 201, 153, 1) 86%, rgba(34, 92, 104, 1) 96%);
 }
 
 ul {
@@ -12,14 +12,15 @@ ul {
 
 li {
 font-size: 20px; 
+font-weight: 500;
 }
 
 .total {
     font-weight: 700;
-    color: #530303;
+    color: #0c38e8;
 }
 
 .positive {
     font-weight: 700;
-        color: rgb(30, 12, 148);
+        color: #e8cf0c;
     }

@@ -4,7 +4,8 @@
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(113, 197, 196);
+    background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 97, 1) 35%, rgba(0, 212, 255, 1) 100%);   
 }
 
 button {
@@ -12,7 +13,7 @@ font-size: 16px;
 font-weight: 500;
 width: 80px;
 color: #fff;
-background-color: #e1b6af;
+background-color: #085142;
 border: none;
 border-radius: 50%;
 padding: 8px;

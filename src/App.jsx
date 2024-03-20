@@ -28,7 +28,7 @@ const positiveFeedback = Math.round((feedback.good / totalFeedback) * 100);
     localStorage.setItem("feedbackStats", JSON.stringify(feedback))
   }, [feedback]);
 
-  return <div>
+  return <div className="body">
     <Description />
     <Options updateFeedback={updateFeedback} totalFeedback={totalFeedback} resetFeedback={resetFeedback} />
     {totalFeedback > 0 ? 

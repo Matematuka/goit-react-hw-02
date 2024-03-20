@@ -1,0 +1,9 @@
+.notFeedback {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(113, 197, 196);
+    font-size: 20px;
+    font-weight: 500;
+    color: #530303;
+    
+}

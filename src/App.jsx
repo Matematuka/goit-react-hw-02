@@ -18,9 +18,7 @@ const App = () => {
   };
 
   const resetFeedback = () => {
-    setFeedback ({ good: 0,
-    neutral: 0,
-    bad: 0})
+    setFeedback (initialValue)
   }
 
 const totalFeedback = feedback.good +  feedback.neutral + feedback.bad;
